@@ -1,0 +1,82 @@
+
+body{
+    background: salmon;
+
+}
+
+.carousel-item{
+    height: 100vh;
+    min-height: 200px;
+}
+.carousel-caption{
+    bottom: 250px;
+    top: 380px;
+    z-index: 2;
+}
+.carousel-caption h5{
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 26px;
+}
+.carousel-caption p{
+    width: 50%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+}
+.carousel-inner{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0);
+    z-index: 1;
+}
+.navbar-nav a{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.carousel-caption a:hover{
+    background-color: red;
+    border-radius: 2px;
+}
+.navbar-light .navbar-brand{
+    color: #000;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover{
+    color: #000;
+}
+.navbar-light .navbar-nav .navbar-link {
+    color: #000;
+}
+.w-100{
+    height: 100vh;
+}
+.services .imgarea img{
+    transition: none;
+    grid-template-columns: max-content;
+    grid-column: 2em;
+}
+.services .card-body i{
+    font-size: 20px;
+    color: pink;
+}
+.team .card-body i{
+    font-size: 20px;
+    
+}
+.portfolio .card{
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+.portfolio .card{
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
